@@ -1,0 +1,274 @@
+main {
+  min-height: 100vh;
+  background: linear-gradient(to right top, rgb(8, 14, 95), #6cdbeb), url("/images/kisscc0-a-flock-of-seagulls-bird-computer-icons-web-browse-flock-of-seagulls-silhouette-5b7591fdc81289.7010927115344317418195.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@font-face {
+    font-family:'1989tv';
+    src: url('./1989TaylorsVersion.ttf') format('woff');
+}
+header {
+    background: linear-gradient(to bottom,#2596be, #ffffff ); 
+    padding: 20px; 
+    text-align: center;
+    color: white; 
+  }
+
+.seagulls{
+    opacity: 0.2;
+    overflow: hidden;
+}
+.headertext{
+    font-family: '1989tv', serif;
+    letter-spacing: -0.1px;
+    justify-content: baseline;
+}
+.glass{
+    position: absolute;
+    background: white;
+    min-height: 58vh;
+    width: 30%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.923),
+        rgba(255, 255, 255, 0.3)
+      );
+      border-radius: 1rem;
+      z-index: 3;
+      backdrop-filter: blur(1rem);
+      display: flex;
+      margin: 0;
+      padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;  
+    letter-spacing: -0.7px;
+    justify-content: center;
+    left: 3%;
+    top: 20%;
+      
+}
+.glasscalc{
+    position: absolute;
+    background: white;
+    min-height: 58%;
+    width:30%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.923),
+        rgba(255, 255, 255, 0.3)
+      );
+      border-radius: 1rem;
+      z-index: 3;
+      backdrop-filter: blur(1rem);
+      display: flex;
+      margin: 0;
+      padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.7px;
+    justify-content: center;
+    
+    left: 60%;
+    top: 10.70%;
+    overflow: hidden;
+    scale: 65%;
+    line-height: 0.1;
+}
+.factorial{
+    position: absolute;
+    background: white;
+    min-height: 20%;
+    width: 40%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.923),
+        rgba(255, 255, 255, 0.3)
+      );
+      border-radius: 1rem;
+      z-index: 3;
+      backdrop-filter: blur(1rem);
+      display: flex;
+      margin: 0;
+      padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.7px;
+    justify-content: center;
+    
+    left: -2%;
+    bottom: 1%;
+    scale: 75%;
+    overflow: hidden;
+    line-height: 0.1;
+}
+.inctax{
+    position: absolute;
+    background: white;
+    min-height: 47%;
+    width: 35%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.923),
+        rgba(255, 255, 255, 0.3)
+      );
+      border-radius: 1rem;
+      z-index: 3;
+      backdrop-filter: blur(1rem);
+      display: flex;
+      margin: 0;
+      padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.7px;
+    justify-content: center;
+    
+    left: 32%;
+    top: 16%;
+    line-height: 0.1;
+    overflow: hidden;
+    scale: 80%;
+}
+.payroll{
+    position: absolute;
+    background: white;
+    min-height: 50%;
+    width: 90%;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.923),
+        rgba(255, 255, 255, 0.3)
+      );
+      border-radius: 1rem;
+      z-index: 3;
+      backdrop-filter: blur(1rem);
+      display: flex;
+      margin: 0;
+      padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -0.7px;
+    justify-content: center;
+    
+    left: 21%;
+    bottom: -4%;
+    line-height: 0.1;
+    overflow: hidden;
+    scale: 68%;
+}
+.photo{
+   scale: .17;
+   justify-content: center;
+   
+
+}
+
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -2;
+    
+}
+
+
+
+.calc{
+    font-family: '1989tv', sans-serif;
+    color: #ffffff;
+    scale: 150%;
+    position: absolute;
+      top: 185px; 
+      left: 320px; 
+      width: 200px;
+      height: 100px;
+    
+}
+.fact{
+    font-family: '1989tv', sans-serif;
+    color: #ffffff;
+    scale: 150%;
+    position: absolute;
+      top: 185px; 
+      left: 900px; 
+      width: 200px;
+      height: 100px;
+    
+}
+.inct{
+    font-family: '1989tv', sans-serif;
+    color: #ffffff;
+    scale: 150%;
+    position: absolute;
+      top: 175px; 
+      left: 650px; 
+      width: 200px;
+      height: 100px;
+    
+}
+.gradient-text {
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #FF5E3A, #FF2A68); /* Gradient colors */
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .taximage
+{
+    scale: 46%;
+    position: absolute;
+    top: 8px;
+    right: -300px;
+}
+table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      
+    }
+
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 12px; 
+      text-align: left;
+    }
+
+    th {
+      background-color: #17527a;
+      color: white;
+      font-family: Montserrat;
+    }
+    
+    .image
+    {
+        position: absolute;
+        justify-content: left;
+        scale: 18%;
+        z-index: 10;
+        left: -4%;
+        top: -14%;
+        
+    }
+
+    .texttext{
+        font-family: '1989tv';
+        left: 40%;
+        justify-content: center;
+    }
+    .dashboarrda{
+        justify-content: center;
+    }
+
+    .logooo
+    {
+        position: absolute;
+        justify-content: left;
+        scale: 190%;
+        z-index: 10;
+        left: -16%;
+        top: 27%;
+        
+    }
