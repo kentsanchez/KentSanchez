@@ -43,7 +43,7 @@ body{
 .haynako{
     justify-content: center;
 }
-.glass, .haynako{
+.glass, .haynako, .incometax {
     position: absolute;
     background: white;
     min-height: 50vh;
