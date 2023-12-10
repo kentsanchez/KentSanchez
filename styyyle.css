@@ -40,7 +40,8 @@ body{
     float: left;
     
 }
-.haynako {
+
+.haynako{
     position: absolute;
     background: white;
     min-height: 50vh;
