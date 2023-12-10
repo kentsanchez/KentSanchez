@@ -40,10 +40,7 @@ body{
     float: left;
     
 }
-.haynako{
-    justify-content: center;
-}
-.glass, .haynako, .incometax {
+.haynako {
     position: absolute;
     background: white;
     min-height: 50vh;
